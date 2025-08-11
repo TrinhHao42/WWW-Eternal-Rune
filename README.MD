@@ -16,7 +16,6 @@ Eternal Rune is a professional and modern website developed by the **Eternal Run
 - Backend: Java Spring Boot
 - Database: MSSQL Server and MongoDB
 - Payment Integration: Supports payment for PayPal
-- Hosting & Domain: https://razodo.id.vn
 
 ## Installation and Running Instructions
 1. Clone the repository:
@@ -41,5 +40,6 @@ The Eternal Rune team warmly welcomes contributions from the community. If you w
 ---
 
 Thank you for your interest in the Eternal Rune project!
+
 
 
