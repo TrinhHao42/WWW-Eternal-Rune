@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: Eternal_Rune_Backend
+
+# config connect with mariaDB
+  datasource:
+    url: jdbc:mariadb://mariadb:3306/Cellphones
+    username: root
+    password: 123
+    driver-class-name: org.mariadb.jdbc.Driver
+
+# config connect with redis
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+# config for JPA
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MariaDBDialect
+
+server:
+  port: 8080

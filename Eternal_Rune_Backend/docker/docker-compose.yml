@@ -1,0 +1,31 @@
+networks:
+  pre-event-network:
+    driver: bridge
+
+services:
+  mariadb:
+    image: mariadb:lts-ubi9
+    container_name: mariadb-container
+    environment:
+      MYSQL_ROOT_PASSWORD: 123
+      MYSQL_DATABASE: Cellphones
+    ports:
+      - "3306:3306"
+    volumes:
+      - mariadb_data:/var/lib/mysql
+    networks:
+      - pre-event-network
+
+  redis:
+    container_name: pre-event-redis
+    image: redis:alpine3.22
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - pre-event-network
+
+volumes:
+  mariadb_data:
+  redis_data:

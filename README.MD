@@ -39,7 +39,3 @@ The Eternal Rune team warmly welcomes contributions from the community. If you w
 ---
 
 Thank you for your interest in the Eternal Rune project!
-
-
-
-
