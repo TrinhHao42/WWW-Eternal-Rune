@@ -14,7 +14,7 @@ Eternal Rune is a professional and modern website developed by the **Eternal Run
 ## Technologies Used
 - Frontend: NextJS, tailwind, scss and UI library
 - Backend: Java Spring Boot
-- Database: MongoDB / MySQL / PostgreSQL
+- Database: MSSQL Server and MongoDB
 - Payment Integration: Supports payment for PayPal
 - Hosting & Domain: https://razodo.id.vn
 
@@ -28,17 +28,12 @@ Eternal Rune is a professional and modern website developed by the **Eternal Run
     cd frontend
     npm install
     ```
-3. Install dependencies back end:
-    ```
-    cd backend
-    npm install
-    ```
-4. Configure the `.env` file with necessary environment variables (e.g., database URL, API keys, etc.).
-5. Run the project in development mode:
+3. Configure the `.env` file with necessary environment variables (e.g., database URL, API keys, etc.).
+4. Run the project in development mode:
     ```
     npm run dev
     ```
-6. Access the website front end at `http://localhost:8080` and front end at `http://localhost:3000`
+5. Access the website front end at `http://localhost:8080` and front end at `http://localhost:3000`
 
 ## Contributing
 The Eternal Rune team warmly welcomes contributions from the community. If you want to suggest improvements or add features, please fork the repository and send a pull request.
@@ -46,4 +41,5 @@ The Eternal Rune team warmly welcomes contributions from the community. If you w
 ---
 
 Thank you for your interest in the Eternal Rune project!
+
 
