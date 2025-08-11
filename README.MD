@@ -32,7 +32,6 @@ Eternal Rune is a professional and modern website developed by the **Eternal Run
     ```
     npm run dev
     ```
-5. Access the website front end at `http://localhost:8080` and front end at `http://localhost:3000`
 
 ## Contributing
 The Eternal Rune team warmly welcomes contributions from the community. If you want to suggest improvements or add features, please fork the repository and send a pull request.
@@ -40,6 +39,7 @@ The Eternal Rune team warmly welcomes contributions from the community. If you w
 ---
 
 Thank you for your interest in the Eternal Rune project!
+
 
 
 
