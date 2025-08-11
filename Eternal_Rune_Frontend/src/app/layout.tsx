@@ -1,11 +1,11 @@
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
     return (
-        <div className="flex h-screen">
+        <div>
             <Header />
-            <html className="flex-1">
+            <html>
                 <body>
                     {children}
                 </body>
