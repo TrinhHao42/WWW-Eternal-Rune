@@ -12,20 +12,19 @@ Eternal Rune is a professional and modern website developed by the **Eternal Run
 - **Feedback & Reviews:** Customers can leave comments and rate products.
 
 ## Technologies Used
-- Frontend: HTML5, CSS3, JavaScript, React (or Vue, Angular depending on the team)
-- Backend: Node.js + Express (or Python Flask/Django, PHP Laravel, etc.)
-- Database: MongoDB / MySQL / PostgreSQL
-- Payment Integration: Supports popular payment APIs (VNPay, Momo, Paypal, etc.)
-- Hosting & Domain: [Provide details if available]
+- Frontend: NextJS, tailwind, scss and UI library
+- Backend: Java Spring Boot
+- Database: MSSQL Server and MongoDB
+- Payment Integration: Supports payment for PayPal
 
 ## Installation and Running Instructions
 1. Clone the repository:
     ```
-    git clone https://github.com/eternalrune/mobile-store.git
+    git clone https://github.com/TrinhHao42/WWW-Eternal-Rune.git
     ```
-2. Install dependencies:
+2. Install dependencies front end:
     ```
-    cd mobile-store
+    cd frontend
     npm install
     ```
 3. Configure the `.env` file with necessary environment variables (e.g., database URL, API keys, etc.).
@@ -33,15 +32,9 @@ Eternal Rune is a professional and modern website developed by the **Eternal Run
     ```
     npm run dev
     ```
-5. Access the website at `http://localhost:3000`
 
 ## Contributing
 The Eternal Rune team warmly welcomes contributions from the community. If you want to suggest improvements or add features, please fork the repository and send a pull request.
-
-## Contact
-- Email: eternalrune@example.com
-- Facebook: fb.com/eternalrune
-- Phone: +84 123 456 789
 
 ---
 
